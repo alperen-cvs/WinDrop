@@ -12,7 +12,7 @@ You must first save the sys file.
 If you want to compile it yourself:
 
 * gcc main.c .\path\to\windivert.dll
--I include -lws2_32 -gdi32 -luser32
+-I include -lws2_32 -lgdi32 -luser32
 
 Remember, this blocks all TCP and UDP packets and only works with IPv4.
 
