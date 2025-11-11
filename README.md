@@ -6,12 +6,12 @@ WinDrop uses Windivert, so you need the .dll and .sys files. These two files mus
 
 You must first save the sys file.
 
-sc create firewall binPath=\path\to\Driver.sys type=kernel
+* sc create firewall binPath=\path\to\Driver.sys type=kernel
 (Requires administrator rights)
 
 If you want to compile it yourself:
 
-gcc main.c .\path\to\windivert.dll
+* gcc main.c .\path\to\windivert.dll
 -I include -lws2_32 -gdi32 -luser32
 
 Remember, this blocks all TCP and UDP packets and only works with IPv4.
