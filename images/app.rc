@@ -1,0 +1,33 @@
+IDI_MAIN_ICON ICON "app.ico"
+1 24 "PacketSniff.manifest"
+#include <windows.h>
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILEFLAGSMASK 0x3fL
+FILEFLAGS 0x0L
+FILEOS VOS__WINDOWS32
+FILETYPE VFT_APP
+FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4" // Dil ve kod sayfası
+        BEGIN
+            VALUE "CompanyName", "WinDrop"
+            VALUE "FileDescription", "WinDrop"
+            VALUE "FileVersion", "1.0"
+            VALUE "InternalName", "By alperen"
+            VALUE "OriginalFilename", "WinDrop.exe"
+            VALUE "ProductName", "Simple Network Packet Dropped(IpV4)"
+            VALUE "ProductVersion", "1.0"
+            VALUE "LegalCopyright", "By Alperen"
+        END
+    END
+
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1252
+    END
+END
